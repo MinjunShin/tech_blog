@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dummy Post"
-date:   2022-06-13 01:23:10
+date:   2022-06-13
 author: Minjun Shin
 categories: Dummy
 ---

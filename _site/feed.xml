@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MJ's Tech blog</title>
+    <description>A simple yet classy theme for your Jekyll website or blog.
+</description>
+    <link>https://minjunshin.github.io/tech_blog/</link>
+    <atom:link href="https://minjunshin.github.io/tech_blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 13 Jun 2022 02:36:44 +0900</pubDate>
+    <lastBuildDate>Mon, 13 Jun 2022 02:36:44 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Dummy Post</title>
+        <description>&lt;h3 id=&quot;testing-post&quot;&gt;Testing Post&lt;/h3&gt;
+
+&lt;p&gt;태그가 문제인 것이냐, 아니면 양식이 호환되지 않는 것이냐?&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jun 2022 00:00:00 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2022/06/13/testing-post.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2022/06/13/testing-post.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different...</description>
+        <pubDate>Mon, 20 Apr 2015 17:43:59 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/jekyll/2015/04/20/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/jekyll/2015/04/20/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 6</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 17:43:59 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy6.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy6.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Final PJT - TDQuest Review</title>
+        <description>&lt;h1 id=&quot;tdquest&quot;&gt;TDQuest&lt;/h1&gt; &lt;hr /&gt; &lt;p&gt;TDQuest는 To-do list와 게임 요소를 결합하여, Todo를 좀 더 흥미롭게 진행할 수 있게 만들어주는 Web App입니다.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;개발기간&lt;/strong&gt; : 2022.04.20~2022.06.08&lt;/p&gt; &lt;/blockquote&gt; &lt;blockquote&gt; &lt;p&gt;&lt;strong&gt;Contributions&lt;/strong&gt;&lt;/p&gt; &lt;/blockquote&gt; &lt;hr /&gt;...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/technical/2015/04/19/tdquest.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/technical/2015/04/19/tdquest.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>technical</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/jekyll/2015/04/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/jekyll/2015/04/19/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 6</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy6.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy6.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 5</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy5.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy5.html</guid>
+        
+        <category>lorem</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 4</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy4.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy4.html</guid>
+        
+        <category>ipsum</category>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 3</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy3.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy3.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+      <item>
+        <title>Dummy Post 2</title>
+        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</description>
+        <pubDate>Sun, 19 Apr 2015 04:25:52 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy2.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/dummy/2015/04/19/dummy2.html</guid>
+        
+        
+        <category>Dummy</category>
+        
+      </item>
+    
+  </channel>
+</rss>

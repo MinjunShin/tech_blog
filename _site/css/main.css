@@ -224,6 +224,12 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey; }
+
 /*
 *	Variables
 */
@@ -342,12 +348,12 @@ pre code.hljs {
       display: table; }
   .navigation .logo {
     float: left;
-    height: 4em; }
+    height: 3em; }
     @media screen and (min-width: 768px) {
       .navigation .logo {
         padding-left: 16px; } }
     .navigation .logo img {
-      max-height: 2.5em;
+      max-height: 2.0em;
       margin-top: 0.75em;
       padding-right: 1em; }
     .navigation .logo span {

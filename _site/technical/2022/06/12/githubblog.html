@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>깃허브 블로그 좀 만들어보자… Jekyll Error</title>
+  <meta name="description" content="깃허브 블로그 좀 만들어보자… Jekyll Error">
+  
+  <meta name="author" content="Minjun Shin">
+  <meta name="copyright" content="&copy; Minjun Shin 2022">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/atom-one-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/tech_blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/tech_blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/tech_blog/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/tech_blog/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/tech_blog/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/tech_blog/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/tech_blog/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/tech_blog/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/tech_blog/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/tech_blog/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tech_blog/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/tech_blog/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tech_blog/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/tech_blog/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tech_blog/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/tech_blog/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/tech_blog/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="깃허브 블로그 좀 만들어보자… Jekyll Error" />
+  <meta property="og:url" content="https://minjunshin.github.io/technical/2022/06/12/githubblog.html">
+  <meta property="og:site_name" content="MJ's Tech blog" />
+  <meta property="og:title" content="깃허브 블로그 좀 만들어보자… Jekyll Error" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://minjunshin.github.io/tech_blog/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="깃허브 블로그 좀 만들어보자… Jekyll Error">
+  <meta name="twitter:description" content="깃허브 블로그 좀 만들어보자… Jekyll Error">
+  <meta name="twitter:image" content="https://minjunshin.github.io/tech_blog/assets/logo.png">
+  <meta name="twitter:url" content="https://minjunshin.github.io/technical/2022/06/12/githubblog.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/tech_blog/css/main.css">
+  <link rel="canonical" href="https://minjunshin.github.io/tech_blog/technical/2022/06/12/githubblog.html">
+	<link rel="alternate" type="application/rss+xml" title="MJ's Tech blog" href="https://minjunshin.github.io/tech_blog/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/tech_blog/" class="logo">
+      
+      <img src="/tech_blog/assets/logo.png" alt="MJ's Tech blog">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/tech_blog/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tech_blog/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">깃허브 블로그 좀 만들어보자… Jekyll Error</h1>
+      <p class="info">by <strong>Minjun Shin</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">June 12, 2022</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/tech_blog/category/technical">Technical</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="깃허브-블로그-좀-만들어보자-jekyll-error">깃허브 블로그 좀 만들어보자… Jekyll Error</h1>
+
+<hr />
+
+<p>나는 처음에 <code class="highlighter-rouge">Jekyll</code>이라는 신문물을 무시하고 그냥 깃헙 페이지에 푸시하고 커밋하면서 수정하면 되겠지~ 했다가 상당히 매운 맛을 몇시간 동안 보게 되었다.</p>
+
+<p>Instruction 메뉴에 있는 내용들을 다시는 무시하지 말라….</p>
+
+<p>Ruby는 그냥 파이썬 관련한 것이다라고 알고 있었는데 이게 지금부터 만든 블로그와 아주 큰 관계가 있었다.</p>
+
+<p>그 와중에 에러도 정말 많이 겪었는데 아래와 같이 해결했다.</p>
+
+<div class="language-tsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">You</span> <span class="nx">don</span><span class="dl">'</span><span class="s1">t have write permissions for the /Library/Ruby/Gems/2.6.0 directory
+</span></code></pre></div></div>
+
+<p><strong>Solution</strong> : <a href="https://jojoldu.tistory.com/288">https://jojoldu.tistory.com/288</a></p>
+
+<div class="language-tsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">An</span> <span class="nx">error</span> <span class="nx">occurred</span> <span class="k">while</span> <span class="nx">installing</span> <span class="nx">ffi</span> <span class="p">(</span><span class="mf">1.11</span><span class="p">.</span><span class="mi">1</span><span class="p">),</span> <span class="nx">and</span> <span class="nx">Bundler</span> <span class="nx">cannot</span> <span class="k">continue</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p><strong>Solution :</strong></p>
+
+<div class="language-tsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">bundle</span> <span class="nx">update</span> <span class="nx">ffi</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="포스팅이-정상적으로-나오지-않는다">포스팅이 정상적으로 나오지 않는다!!</h3>
+
+<hr />
+
+<p>처음에 <code class="highlighter-rouge">_config.yml</code> 파일에 최상단에 이런 말이 있었는데 이게 무슨 말인지 잘 몰랐다. 왜냐하면 Archive부터가 뭘 말하는건지 잘 몰랐기 때문에 무시했었다..</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-archives</span> <span class="c1"># Sorry, not GitHub pages friendly!</span>
+  <span class="pi">-</span> <span class="s">jekyll-sitemap</span>
+  <span class="pi">-</span> <span class="s">jekyll-paginate-v2</span>
+</code></pre></div></div>
+
+<p>아니나 다를까 포스팅을 올려도 보이지 않고, 최신 시간으로 올리는 포스트는 다 안보이고 아주 대환장파티였다.</p>
+
+<p>여기저기서 정보를 긁어모으다가 결국 위에서 말했던 대로 <code class="highlighter-rouge">jekyll-archives</code> 가 그냥 사용하기에는 깃헙페이지하고 friendly….. 프레엔들리하지 않단다… 그래서 포스팅이 정상적으로 안되는 것이였다.</p>
+
+<p>이후 rake publish에서 계속 에러가 발생하였는데… 정확한 원인은 잘 모르겠지만,</p>
+
+<p>처음에 <code class="highlighter-rouge">GITHUB_REPONAME</code>을 변경하다가 <code class="highlighter-rouge">master</code> 브랜치로 푸시하도록 되어 있길래 <code class="highlighter-rouge">main</code> 브랜치로 임의로 바꿔놓았는데, 아마 <code class="highlighter-rouge">main</code> 브랜치로 푸시하는 권한을 계속 갖지 못하는 것 같았다.</p>
+
+<p><code class="highlighter-rouge">master</code> branch로 푸시하도록 설정을 다시 변경하니 진행이 되었다.</p>
+
+<p>SSH 세팅은 글로벌하게 다 되어있는데 어째서…? rake는 처음 보는 것이라 좀 더 공부해봐야겠다.</p>
+
+<p>블로그 레포 가장 최상단에 rakefile 이라는 이름으로 파일을 하나 생성하고 아래와 같이 넣은 후 publish를 진행하였다.</p>
+
+<p><code class="highlighter-rouge">master</code> 브랜치에 푸시하는 것이기 때문에, 깃허브 페이지 셋팅에서도 master 브랜치를 가리키도록 바꾸었다.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s2">"rubygems"</span>
+<span class="nb">require</span> <span class="s2">"tmpdir"</span>
+
+<span class="nb">require</span> <span class="s2">"bundler/setup"</span>
+<span class="nb">require</span> <span class="s2">"jekyll"</span>
+
+<span class="c1"># Change your GitHub reponame</span>
+<span class="c1"># 자신의 GitName/GitHub Project 명</span>
+<span class="no">GITHUB_REPONAME</span> <span class="o">=</span> <span class="s2">"MinjunShin/tech_blog"</span>
+
+<span class="n">desc</span> <span class="s2">"Generate blog files"</span>
+<span class="n">task</span> <span class="ss">:generate</span> <span class="k">do</span>
+  <span class="no">Jekyll</span><span class="o">::</span><span class="no">Site</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="no">Jekyll</span><span class="p">.</span><span class="nf">configuration</span><span class="p">({</span>
+    <span class="s2">"source"</span>      <span class="o">=&gt;</span> <span class="s2">"."</span><span class="p">,</span>
+    <span class="s2">"destination"</span> <span class="o">=&gt;</span> <span class="s2">"_site"</span>
+  <span class="p">})).</span><span class="nf">process</span>
+<span class="k">end</span>
+
+<span class="n">desc</span> <span class="s2">"Generate and publish blog to gh-pages"</span>
+<span class="n">task</span> <span class="ss">:publish</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="ss">:generate</span><span class="p">]</span> <span class="k">do</span>
+  <span class="no">Dir</span><span class="p">.</span><span class="nf">mktmpdir</span> <span class="k">do</span> <span class="o">|</span><span class="n">tmp</span><span class="o">|</span>
+    <span class="n">cp_r</span> <span class="s2">"_site/."</span><span class="p">,</span> <span class="n">tmp</span>
+
+    <span class="n">pwd</span> <span class="o">=</span> <span class="no">Dir</span><span class="p">.</span><span class="nf">pwd</span>
+    <span class="no">Dir</span><span class="p">.</span><span class="nf">chdir</span> <span class="n">tmp</span>
+
+    <span class="nb">system</span> <span class="s2">"git init"</span>
+    <span class="nb">system</span> <span class="s2">"git add ."</span>
+    <span class="c1">#system "git config --global user.email you@example.com"</span>
+    <span class="c1">#system "git config --global user.name Your Name"</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="s2">"Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">utc</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">system</span> <span class="s2">"git commit -m </span><span class="si">#{</span><span class="n">message</span><span class="p">.</span><span class="nf">inspect</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">system</span> <span class="s2">"git remote add origin git@github.com:</span><span class="si">#{</span><span class="no">GITHUB_REPONAME</span><span class="si">}</span><span class="s2">.git"</span>
+    <span class="nb">system</span> <span class="s2">"git push origin master --force"</span>
+
+    <span class="no">Dir</span><span class="p">.</span><span class="nf">chdir</span> <span class="n">pwd</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="저-알-수-없는-코드-블록은-어째서">저 알 수 없는 코드 블록은 어째서..</h3>
+<hr />
+
+<p><img src="/tech_blog/assets/posts/20220612_github/Untitled6.png" alt="Untitled" /></p>
+
+<p>사진과 같이 Reference 밑에 알 수 없는 코드블럭이 자꾸 생겼는데… 온갖 방법을 다 써보다가 결국 _config.yml에 해당 내용을 전부 지우는 것으로 해결했다.</p>
+
+<p><img src="/tech_blog/assets/posts/20220612_github/Untitled7.png" alt="description만 남기고 다 지워버리자." />
+<em>** description만 남기고 다 지워버리자.</em></p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/tech_blog/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+      <a href="//twitter.com/share?text=%EA%B9%83%ED%97%88%EB%B8%8C+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EC%A2%80+%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90%E2%80%A6+Jekyll+Error&url=https%3A%2F%2Fminjunshin.github.io%2Ftech_blog%2Ftechnical%2F2022%2F06%2F12%2Fgithubblog.html&via="
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+        <i class="fa fa-twitter-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=%EA%B9%83%ED%97%88%EB%B8%8C+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EC%A2%80+%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90%E2%80%A6+Jekyll+Error&u=https%3A%2F%2Fminjunshin.github.io%2Ftech_blog%2Ftechnical%2F2022%2F06%2F12%2Fgithubblog.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">MJ's Tech blog</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/tech_blog/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tech_blog/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:mj.irin1260@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">mj.irin1260@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="" title="">
+              <i class="fa fa-twitter"></i>
+              <span class="username">Twitter</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/MinjunShin" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">MinjunShin</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <!-- <p class="rss-subscribe text"><strong>Subscribe <a href="/tech_blog/feed.xml">via RSS</a></strong></p> -->
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

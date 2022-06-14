@@ -13,14 +13,13 @@ title: MJ's Tech blog
 subtitle: "MJ's Technical writing blog!"
 email: mj.irin1260@gmail.com
 name: Minjun Shin
-description: >
-  A simple yet classy theme for your Jekyll website or blog.
+description:   
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "/tech_blog" # the subpath of your site, e.g. /blog/
 url: "https://minjunshin.github.io" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/mainpage.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
@@ -54,15 +53,6 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-  - cat: technical
-    desc: "Related to technical issues"
-
 # Social icons and sharing options
 #
 # Social settings are used in two places:
@@ -81,9 +71,9 @@ descriptions:
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
+    username: 
+    url: 
+    desc: 
     share: true
 
   - name: Facebook
@@ -100,19 +90,12 @@ social:
     desc: Fork me on GitHub
     share: true
 
-  - name: LinkedIn
-    icon: linkedin
-    username: 
-    url: 
-    desc: Connect with me on LinkedIn
-    share: false
-
   - name: Google+
     icon: google-plus
     username: ""
     url: ""
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
@@ -133,7 +116,7 @@ social:
     username: ""
     url: ""
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -182,7 +165,7 @@ social:
     username: ""
     url: ""
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news

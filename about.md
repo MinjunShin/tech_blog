@@ -5,14 +5,82 @@ permalink: /about/
 main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+<!-- ![alt text]({{ site.baseurl }}/assets/profile.jpg "Profile Picture"){:.profile} -->
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+<img src="{{ site.baseurl }}/assets/profile.jpg" style="width: 200px; border-radius: 10px;">
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+<br />
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+### 언제나 성장하고픈 개발자 MJ S의 블로그에 오신 것을 환영합니다!
+---
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+
+### Contact Information
+
+- 📧 E-mail: mj.irin1260@gmail.com
+- 😍 Github: [https://github.com/MinjunShin](https://github.com/MinjunShin)
+
+<br />
+
+### Tech Stacks
+
+**[ LANG ]**  Javascript, Typescript, HTML, CSS
+
+**[ Libraries, FrameWork ]**  React, Redux
+
+**[ DB & Sever ]** MySQL, GraphQL, Node Express
+
+**[ Others ]** Git, AWS(EC2, RDS, S3)
+
+---
+
+
+## Education
+
+
+
+### HangYang CU (2022.03 - 현재) : Bachelor's degree 
+- Hacking secruity
+
+### Code States (2021.06 - 2022.06)
+
+> Software engineering, Part Immersive BootCamp program (6th)
+
+- Full-stack study based on Javascript
+- Front-end : React, Back-end : Node.js
+
+
+### Tech University of Korea (2013.03 - 2021.02) : Master's degree 
+- Energy & Electronics Engineering (Bachelor's degree)
+- Electronics Engineering (Master's degree)
+
+---
+
+## Studies
+
+
+### Nomad Coders Challenge (2020.11) - Vanilla JS 2주 완성반
+
+- Javascript ES6 Class, Prototype, Array, Object 기본 개념 및 활용법
+- Styled-component를 활용한 컴포넌트 디자인
+
+
+### Apollo GraphQL Lift-off (2022.05)
+
+- [https://www.notion.so/621049/Apollo-GraphQL-Lift-off-3dcc6b37e9ba4474b2448feaeca0742b#324aa36c71374362a551a655b1850e7c](https://www.notion.so/Apollo-GraphQL-Lift-off-3dcc6b37e9ba4474b2448feaeca0742b)
+
+---
+
+
+## Languages
+
+**영어** 🇺🇸
+
+- TOEIC : 780점 (2018.05.15)
+- OPIC : IM2 (2018.09.10)
+
+**일본어** 🇯🇵
+
+- Business Level Communication
+
+

@@ -20,7 +20,7 @@ description:
 baseurl: "/tech_blog" # the subpath of your site, e.g. /blog/
 url: "https://minjunshin.github.io" # the base hostname & protocol for your site
 cover: "/assets/mainpage.jpg"
-logo: "/assets/logo.png"
+logo: "/assets/logo.jpg"
 
 # Build settings
 markdown: kramdown
@@ -69,13 +69,6 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: 
-    url: 
-    desc: 
-    share: true
-
   - name: Facebook
     icon: facebook
     username: 

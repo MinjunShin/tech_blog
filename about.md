@@ -40,7 +40,7 @@ main_nav: true
 
 
 ### HangYang CU (2022.03 - 현재) : Bachelor's degree 
-- Hacking secruity
+- Hacking secruity engineering
 
 ### Code States (2021.06 - 2022.06)
 
@@ -61,9 +61,8 @@ main_nav: true
 
 ### Nomad Coders Challenge (2020.11) - Vanilla JS 2주 완성반
 
-- Javascript ES6 Class, Prototype, Array, Object 기본 개념 및 활용법
-- Styled-component를 활용한 컴포넌트 디자인
-
+- Javascript ES6 기본 개념 및 활용법
+- To-do list App.
 
 ### Apollo GraphQL Lift-off (2022.05)
 

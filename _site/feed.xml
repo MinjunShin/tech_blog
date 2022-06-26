@@ -5,9 +5,21 @@
     <description></description>
     <link>https://minjunshin.github.io/tech_blog/</link>
     <atom:link href="https://minjunshin.github.io/tech_blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jun 2022 22:21:58 +0900</pubDate>
-    <lastBuildDate>Tue, 14 Jun 2022 22:21:58 +0900</lastBuildDate>
+    <pubDate>Mon, 27 Jun 2022 03:48:14 +0900</pubDate>
+    <lastBuildDate>Mon, 27 Jun 2022 03:48:14 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>정보보호 경영체계 - 인적보안 정책</title>
+        <description>&lt;h2 id=&quot;고용-계약-및-정책&quot;&gt;고용 계약 및 정책&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;고용 계약서(EA)&lt;/strong&gt; : 조직의 규칙과 제한 사항, 정보보호 정책, 이용 및 활동 허락 정책(acceptable use and activities policies), 상세한 직무 기술, 위반과 벌칙,...</description>
+        <pubDate>Fri, 24 Jun 2022 00:00:00 +0900</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/technical/2022/06/24/infosecurity2.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/technical/2022/06/24/infosecurity2.html</guid>
+        
+        
+        <category>technical</category>
+        
+      </item>
     
       <item>
         <title>Final PJT - TDQuest Review</title>

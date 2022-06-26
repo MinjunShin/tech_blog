@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Final PJT - TDQuest Review</title>
+  <meta name="description" content="TDQuestTDQuest는 기본적인 To-do list와 게임 요소를 결합하여, To-do를 좀 더 흥미롭게 진행할 수 있게 만들어주는 목적으로 기획한 Web App입니다.">
+  
+  <meta name="author" content="Minjun Shin">
+  <meta name="copyright" content="&copy; Minjun Shin 2022">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/atom-one-dark.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/tech_blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/tech_blog/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/tech_blog/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/tech_blog/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/tech_blog/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/tech_blog/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/tech_blog/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/tech_blog/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/tech_blog/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/tech_blog/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tech_blog/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/tech_blog/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tech_blog/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/tech_blog/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tech_blog/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/tech_blog/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/tech_blog/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="TDQuestTDQuest는 기본적인 To-do list와 게임 요소를 결합하여, To-do를 좀 더 흥미롭게 진행할 수 있게 만들어주는 목적으로 기획한 Web App입니다." />
+  <meta property="og:url" content="https://minjunshin.github.io/technical/2022/06/12/tdquest.html">
+  <meta property="og:site_name" content="MJ's Tech blog" />
+  <meta property="og:title" content="Final PJT - TDQuest Review" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://minjunshin.github.io/tech_blog/assets/posts/tdquest/tdquest.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Final PJT - TDQuest Review">
+  <meta name="twitter:description" content="TDQuestTDQuest는 기본적인 To-do list와 게임 요소를 결합하여, To-do를 좀 더 흥미롭게 진행할 수 있게 만들어주는 목적으로 기획한 Web App입니다.">
+  <meta name="twitter:image" content="https://minjunshin.github.io/tech_blog/assets/posts/tdquest/tdquest.png">
+  <meta name="twitter:url" content="https://minjunshin.github.io/technical/2022/06/12/tdquest.html">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/tech_blog/css/main.css">
+  <link rel="canonical" href="https://minjunshin.github.io/tech_blog/technical/2022/06/12/tdquest.html">
+	<link rel="alternate" type="application/rss+xml" title="MJ's Tech blog" href="https://minjunshin.github.io/tech_blog/feed.xml" />
+	
+	<!-- Tooltips -->
+	<script type="text/javascript">
+		window.tooltips = []
+	</script>
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/tech_blog/" class="logo">
+      
+      <img src="/tech_blog/assets/logo.jpg" alt="MJ's Tech blog">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+				
+	
+	<li class="nav-link"><a href="/tech_blog/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tech_blog/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container has-cover" style="background-image: url(/tech_blog/assets/posts/tdquest/tdquest.png);">
+  <div class="scrim has-cover">
+    <header class="post-header">
+      <h1 class="title">Final PJT - TDQuest Review</h1>
+      <p class="info">by <strong>Minjun Shin</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+
+
+<section class="post-meta">
+  <div class="post-date">June 12, 2022</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/tech_blog/category/technical">Technical</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <h1 id="tdquest">TDQuest</h1>
+<hr />
+<p>TDQuest는 기본적인 To-do list와 게임 요소를 결합하여, To-do를 좀 더 흥미롭게 진행할 수 있게 만들어주는 목적으로 기획한 Web App입니다.<br />
+<br /></p>
+
+<h4 id="개발기간--2022042020220608"><strong>개발기간</strong> : 2022.04.20~2022.06.08</h4>
+
+<p><br /></p>
+
+<blockquote>
+  <p><strong>CONTENTS</strong></p>
+  <ul>
+    <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#week-1-2">Week 1~2</a></li>
+    <li><a href="#week-3">Week 3</a></li>
+    <li><a href="#week-4">Week 4</a></li>
+    <li><a href="#week-5">Week 5</a></li>
+    <li><a href="#week-6-8">Week 6~8</a></li>
+    <li><a href="#프로젝트-structure">프로젝트 Structure</a></li>
+  </ul>
+</blockquote>
+
+<p><br /></p>
+
+<h1 id="contributions">Contributions</h1>
+<hr />
+
+<ul>
+  <li>Role : <span style="color:#e56d67"><strong>Team Member</strong></span></li>
+  <li>Position : Front-end</li>
+  <li>Stack : <strong>TypeScript</strong>, <strong>React JS</strong>, <strong>Redux-toolkit</strong>, <strong>Styled-Component</strong></li>
+  <li>Works :
+    <ol>
+      <li>UI/UX, Proto-Type Design</li>
+      <li>Common Component (Toast, Modal, Button, Status)</li>
+      <li>My Status, My Page, Raid Page 구현</li>
+      <li>Overall Bug Fix</li>
+    </ol>
+  </li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<h1 id="week-1-2">Week 1-2</h1>
+
+<hr />
+
+<p>첫번째 PJT였던 Corner-Reviewer 진행 당시와 마찬가지로 다들 직장인들로 구성된 팀이었기 때문에, 개발 기간을 상당히 널널하게 잡고 진행하였다. 기획 및 디자인을 2주가량 잡고 Idea 선정 및 UI/UX, Prototype 작업을 진행했다.</p>
+
+<p>UI/UX 및 Prototype은 Miro App을 통해 만들었고, 내가 담당하였다. (<strong>초기 기획 기능리스트가 바로 Prototype 버전이다</strong>) 기획에 대해 이거저거 찾아보면서 만들긴했지만 부족한 부분은 많다.</p>
+
+<p><br /></p>
+
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled%204.png" alt="Untitled" />
+<em>[UI/UX Design]</em></p>
+
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled%205.png" alt="Untitled" />
+<em>[Prototype Design]</em>
+<br /><br /></p>
+
+<h1 id="week-3">Week 3</h1>
+
+<hr />
+
+<p>3주차에는 DB 및 API 문서 작성, Git과 Skeleton File로 AWS 배포 초기 세팅을 진행하였다. 개발이 끝난 지금 와서 생각하는건데, 자동 배포에 대한 기능을 그다지 활용하지 않은 것이 아쉬운 점이다.</p>
+
+<p>Git 세팅은 Agile 방법론을 적용해보자는 의견에, 모든 기능 리스트들을 크게 Sprint 1,2로 나누고 1이 끝나면 다같이 2로 넘어가는 식으로 진행했다.</p>
+
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled%206.png" alt="Untitled" /></p>
+
+<p><br />
+<br /></p>
+
+<h1 id="week-4">Week 4</h1>
+
+<hr />
+
+<p>본격적인 코딩 작업에 착수했다. 먼저 header, footter를 CSS로 모양만 잡아주고 팀원들에게 기능 구현을 요청한 뒤 공통 컴포넌트를 만드는 작업을 진행했다. (Button, Status)</p>
+
+<p><strong>팀원들이 이 컴포넌트를 가져가서 어떤 상황에 사용하게 될까를 고려하면서</strong>, 옵션으로 사용할 수 있는 props와 default 값을 설정하였다.</p>
+
+<p>TypeScript를 실제 사용해보는 것이 이번이 처음이어서, props와 state에 Type을 설정하는 방법 등 기존과는 다른 점들에 시간을 조금 많이 소요했었다.</p>
+
+<p>Type 또한 되도록 컴포넌트에 설정하지 않고, 다른 곳에 사용할 경우를 대비하여 <strong>Types 폴더를 따로 만들어</strong> 그 안에 넣은 뒤 import 해오는 방식으로 사용하려고 노력했다.</p>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>Button Component</strong></p>
+
+    <div class="language-tsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Button 컴포넌트는 width, fontSize, padding, text를 넣어 사용할 수 있습니다.</span>
+<span class="c1">// 값을 지정하지 않은 경우, 기본 설정값으로 버튼이 생성됩니다.</span>
+<span class="c1">//! 기본 설정값 : width: 120px, fontSize: 20px, padding: null</span>
+<span class="c1">// text에는 버튼 안에 넣고 싶은 텍스트를 할당하면 됩니다.</span>
+<span class="kd">function</span> <span class="nx">Button</span><span class="p">({</span>
+  <span class="nx">width</span><span class="p">,</span>
+  <span class="nx">fontSize</span><span class="p">,</span>
+  <span class="nx">padding</span><span class="p">,</span>
+  <span class="nx">text</span><span class="p">,</span>
+  <span class="nx">height</span><span class="p">,</span>
+  <span class="nx">marginBottom</span><span class="p">,</span>
+  <span class="nx">deactive</span><span class="p">,</span>
+  <span class="nx">onClick</span><span class="p">,</span>
+<span class="p">}:</span> <span class="nx">ButtonData</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nc">ButtonContainer</span>
+      <span class="na">width=</span><span class="si">{</span><span class="nx">width</span><span class="si">}</span>
+      <span class="na">fontSize=</span><span class="si">{</span><span class="nx">fontSize</span><span class="si">}</span>
+      <span class="na">padding=</span><span class="si">{</span><span class="nx">padding</span><span class="si">}</span>
+      <span class="na">height=</span><span class="si">{</span><span class="nx">height</span><span class="si">}</span>
+      <span class="na">marginBottom=</span><span class="si">{</span><span class="nx">marginBottom</span><span class="si">}</span>
+      <span class="na">deactive=</span><span class="si">{</span><span class="nx">deactive</span><span class="si">}</span>
+      <span class="na">onClick=</span><span class="si">{</span><span class="nx">onClick</span><span class="si">}</span>
+    <span class="p">&gt;</span>
+      <span class="si">{</span><span class="nx">text</span><span class="si">}</span>
+    <span class="p">&lt;/</span><span class="nc">ButtonContainer</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">Button</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Status Component</strong></p>
+
+    <div class="language-tsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 옵션 : onlyChar, direction</span>
+<span class="c1">// onlyChar = true일 경우, 캐릭터 창만 표시</span>
+<span class="c1">// direction은 기본적으로 column 방향이고, direction = 'row' 전달 시 가로로 표시됨</span>
+<span class="kd">function</span> <span class="nx">Status</span><span class="p">({</span>
+  <span class="nx">charData</span><span class="p">,</span>
+  <span class="nx">onlyChar</span><span class="p">,</span>
+  <span class="nx">direction</span><span class="p">,</span>
+<span class="p">}:</span> <span class="p">{</span>
+  <span class="nl">charData</span><span class="p">:</span> <span class="nx">CharDataType</span><span class="p">;</span>
+  <span class="nx">onlyChar</span><span class="p">?:</span> <span class="nx">boolean</span><span class="p">;</span>
+  <span class="nx">direction</span><span class="p">?:</span> <span class="nx">string</span><span class="p">;</span>
+<span class="p">}):</span> <span class="nx">JSX</span><span class="p">.</span><span class="nx">Element</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">{</span>
+    <span class="na">user_id</span><span class="p">:</span> <span class="nx">userName</span><span class="p">,</span>
+    <span class="na">image</span><span class="p">:</span> <span class="nx">character</span><span class="p">,</span>
+    <span class="nx">status_phy</span><span class="p">,</span>
+    <span class="nx">status_int</span><span class="p">,</span>
+    <span class="nx">status_spl</span><span class="p">,</span>
+    <span class="nx">userLevel</span><span class="p">,</span>
+    <span class="nx">userExp</span><span class="p">,</span>
+  <span class="p">}</span> <span class="o">=</span> <span class="nx">charData</span><span class="p">;</span>
+
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="p">&lt;</span><span class="nc">MainContainer</span> <span class="na">direction=</span><span class="si">{</span><span class="nx">direction</span><span class="si">}</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nc">CharacterContainer</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nc">CharacterBackground</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className=</span><span class="s2">"character_wrapper"</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nc">Character</span>
+              <span class="na">src=</span><span class="si">{</span><span class="nx">require</span><span class="p">(</span><span class="s2">`../static/images/character/${character}.png`</span><span class="p">)</span><span class="si">}</span>
+            <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nc">CharacterBackgroundBottom</span> <span class="p">/&gt;</span>
+        <span class="p">&lt;/</span><span class="nc">CharacterBackground</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nc">CharacterContainer</span><span class="p">&gt;</span>
+      <span class="si">{</span><span class="nx">onlyChar</span> <span class="p">?</span> <span class="kc">null</span> <span class="p">:</span> <span class="p">(</span>
+        <span class="p">&lt;</span><span class="nc">CharacterInfoContainer</span> <span class="na">direction=</span><span class="si">{</span><span class="nx">direction</span><span class="si">}</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nc">UserNameContainer</span> <span class="na">direction=</span><span class="si">{</span><span class="nx">direction</span><span class="si">}</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nc">UserLevel</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">userLevel</span><span class="si">}</span><span class="p">&lt;/</span><span class="nc">UserLevel</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nc">UserNameWrapper</span> <span class="na">direction=</span><span class="si">{</span><span class="nx">direction</span><span class="si">}</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nc">UserTitle</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">userTitle</span><span class="si">}</span><span class="p">&lt;/</span><span class="nc">UserTitle</span><span class="p">&gt;</span>
+              <span class="p">&lt;</span><span class="nc">UserName</span><span class="p">&gt;</span><span class="si">{</span><span class="nx">userName</span><span class="si">}</span><span class="p">&lt;/</span><span class="nc">UserName</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nc">UserNameWrapper</span><span class="p">&gt;</span>
+          <span class="p">&lt;/</span><span class="nc">UserNameContainer</span><span class="p">&gt;</span>
+          <span class="p">&lt;</span><span class="nc">StatusContainer</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nc">StatusDetails</span> <span class="p">/&gt;</span>
+          <span class="p">&lt;/</span><span class="nc">StatusContainer</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nc">CharacterInfoContainer</span><span class="p">&gt;</span>
+      <span class="p">)</span><span class="si">}</span>
+    <span class="p">&lt;/</span><span class="nc">MainContainer</span><span class="p">&gt;</span>
+  <span class="p">);</span>
+<span class="p">}</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="nx">Status</span><span class="p">;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<h1 id="week-5">Week 5</h1>
+
+<hr />
+
+<p>Sprint1 의 마무리주이기 때문에, <strong>My Status Page</strong> 및 <strong>My Page</strong>를 마무리하기로 했다. <br />
+초기 ProtoType 기획 때는 My Page를 모달 형태로 띄우기로 했는데… 중간에 팀원들의 마음이 바뀌어서 페이지 형태로 갑자기 바꾸게 되었다.</p>
+
+<ul>
+  <li>
+    <p>사실 My Page에 렌더링할 정보가 많이 없어서 모달창으로 한 것이었기 때문에 페이지 레이아웃을 어떻게 할지가 가장 큰 고민이었다. (사실 상 이 고민 때문에 시간을 거의 다 쓰게 되었다. ProtoType이 이래서 중요하다!)</p>
+  </li>
+  <li>
+    <p>기획 단계에서 Redux-toolkit을 통해 캐릭터 데이터 들을 관리하기로 했었는데, 진행하다보니 약간 생각이 부족했다는 느낌이 있었다.</p>
+
+    <ol>
+      <li>초기 기획 단계는 로그인 시 <code class="highlighter-rouge">localStorage</code>에 DB상 캐릭터 ID 등을 셋팅하고, 이를 기준으로 <code class="highlighter-rouge">API</code>에서 데이터를 불러와 state에 셋팅하면 문제 없겠지! 라는 생각이었다.</li>
+      <li>그러나 <code class="highlighter-rouge">Redux state</code> 또한 <code class="highlighter-rouge">state</code>이기 때문에… 새로고침 시 데이터가 전부 초기화되어 페이지가 데이터를 읽어오지 못해 렌더링 오류로 터져버리는 문제가 빈번했다.</li>
+      <li>여기서 이제 중요한 결정을 해야될 부분이 <code class="highlighter-rouge">App.tsx</code>에서 새로고침할 때마다 관련된 모든 데이터를 API에서 불러와 <code class="highlighter-rouge">localStorage 셋팅</code> → <code class="highlighter-rouge">state 셋팅</code> → <code class="highlighter-rouge">각 페이지로 전달</code> 하느냐, 아니면 각 페이지에서 필요한 정보를 그때마다 API에서 불러오느냐의 결정을 해야했는데, 결국 <code class="highlighter-rouge">state</code>로 우선 가기로 했다.</li>
+      <li>이유는 API의 오류가 많아 <code class="highlighter-rouge">state</code> 셋팅이 잘 안되는 것인지, 아니면 Client 쪽에서 <code class="highlighter-rouge">data flow</code>를 제대로 고려하지 못하고 짠 것인지 확신이 없었기 때문에… 우선 기존 기획대로 진행을 하였는데 완성 단계에 다다르니, 실시간으로 업데이트되는 <code class="highlighter-rouge">status</code> 정보 등을 생각하면 각 페이지에서 필요한 데이터를 그 때마다 불러오는 것이 더 좋은 생각이 아니었나 싶다.</li>
+    </ol>
+  </li>
+  <li>
+    <p>개발 중간에, <code class="highlighter-rouge">Toast</code> 메뉴와 <code class="highlighter-rouge">Modal</code> 창 또한 공통 Component로서 개발하면 좋겠다는 생각들어 작업을 진행하였다. <code class="highlighter-rouge">Modal</code> 창 또한 버튼이 클릭 시 함수가 실행되는 기능이 필요하다고 생각하여 관련 <code class="highlighter-rouge">props</code> 또한 전달 받을 수 있도록 구현하였다.</p>
+
+    <ol>
+      <li>사실 <code class="highlighter-rouge">Toast</code> 가 가장 고민이었는데, 원래는 함수만 불러와도 토스트 메뉴가 렌더링 되도록 만들고 싶었다. 이 때문에 Class 구조화 등등 여러가지 고민하다가 결국 컴포넌트를 불러와서 사용자가 <code class="highlighter-rouge">state</code>로 해당 컴포넌트를 조건부 렌더링 시키는 구조로 구현하였는데…</li>
+      <li>나중에 생각해보니 App 최상단에 토스트 컴포넌트를 삽입하고 하위 컴포넌트 들에서 함수만을 호출하여 사용할 수 있도록 구현하는 방법이 더 좋았을 것 같다.</li>
+    </ol>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<details>
+  <summary><strong>Modal CODE</strong></summary>
+  <script src="https://gist.github.com/MinjunShin/94cb643072ea48adee4d6c5d4176723f.js"></script>
+</details>
+
+<details>
+  <summary><strong>Toast CODE</strong></summary>
+  <script src="https://gist.github.com/MinjunShin/230606bdea7d19ccceb0e5eaf586535c.js"></script>
+</details>
+
+<p><br />
+<br /></p>
+
+<h4 id="완성된-모습-최종">완성된 모습 (최종)</h4>
+<hr />
+
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled%207.png" alt="Untitled" />
+<em>My Status Page</em></p>
+
+<p><br /></p>
+
+<p><img src="/tech_blog/assets/posts/tdquest/mypage.gif" alt="mypage.gif" />
+<em>My Page</em></p>
+
+<p><br />
+<br /></p>
+
+<h1 id="week-6-8">Week 6-8</h1>
+
+<hr />
+
+<p>Sprint2 스케쥴이 시작되었는데, 7주차까지는 정말 미친듯이 바빴다. (직장 일이)</p>
+
+<p>또한 Status에 따른 캐릭터 변화를 어떻게 시킬 것인지, 칭호는 어떻게 할 것인지, 보스 밸런싱은 어떻게 할 것인지 등 전체적인 게임 밸런싱에 대한 기획까지 진행하려다보니 너무 할게 많아져서 변곡점이 좀 찾아왔다..</p>
+
+<p>따라서 세세한 Detail은 8주차에 허겁지겁하게 된 부분이 좀 아쉽다.</p>
+
+<p>또한 마지막 8주차에는, 시연이 코앞인데 다른 페이지들의 버그 및 구현되지 않은 서버 기능들이 너무 많아서 서버 코드까지 일부 직접 작성하고 <strong>전체적인 버그 Fix</strong> 작업 및 다듬어지지 않은 <strong>모바일 반응형 페이지 및 CSS 마무리</strong> 작업을 진행했다. 거의 2일 동안 밤을 샜다..</p>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p><strong>레이드 진행</strong></p>
+
+    <p><img src="/tech_blog/assets/posts/tdquest/boss_page.gif" alt="boss_page.gif" /></p>
+  </li>
+  <li>
+    <p><strong>레이드 완료</strong></p>
+
+    <p><img src="/tech_blog/assets/posts/tdquest/BossRaid_Reward.gif" alt="BossRaid_Reward.gif" /></p>
+  </li>
+</ul>
+
+<p><br />
+<br /></p>
+
+<h3 id="프로젝트-structure">프로젝트 Structure</h3>
+<hr />
+
+<h4 id="페이지-구조">페이지 구조</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled.png" alt="Untitled" /><br /></p>
+
+<h4 id="기술-스택--system-architecture">기술 스택 &amp; System Architecture</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/Untitled%201.png" alt="Untitled" />
+<img src="/tech_blog/assets/posts/tdquest/Untitled%202.png" alt="Untitled" />
+<img src="/tech_blog/assets/posts/tdquest/Untitled%203.png" alt="Untitled" /></p>
+
+<h4 id="주요-기능별-시연">주요 기능별 시연</h4>
+<hr />
+
+<h4 id="1-회원가입로그인">1. 회원가입/로그인</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/login.gif" alt="login.gif" /><br /></p>
+
+<h4 id="2-투두리스트-crud">2. 투두리스트 CRUD</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/todolistpage.gif" alt="todolistpage.gif" /><br /></p>
+
+<h4 id="3-레이드-참가">3. 레이드 참가</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/bossRaid1_page.gif" alt="bossRaid1_page.gif" /><br /></p>
+
+<h4 id="4-레이드-진행">4. 레이드 진행</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/boss_page.gif" alt="boss_page.gif" /><br /></p>
+
+<h4 id="5-레이드-완료">5. 레이드 완료<br /></h4>
+<p><img src="/tech_blog/assets/posts/tdquest/BossRaid_Reward.gif" alt="BossRaid_Reward.gif" /><br /></p>
+
+<h4 id="6-랭킹">6. 랭킹</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/ranking_page.gif" alt="ranking_page.gif" /><br /></p>
+
+<h4 id="7-mypage">7. myPage</h4>
+<p><img src="/tech_blog/assets/posts/tdquest/mypage.gif" alt="mypage.gif" /><br /></p>
+
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/tech_blog/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=Final+PJT+-+TDQuest+Review&u=https%3A%2F%2Fminjunshin.github.io%2Ftech_blog%2Ftechnical%2F2022%2F06%2F12%2Ftdquest.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">MJ's Tech blog</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+				
+	
+	<li class="nav-link"><a href="/tech_blog/about/">About</a>
+	
+
+	
+
+	
+
+	
+	<li class="nav-link"><a href="/tech_blog/posts/">Posts</a>
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:mj.irin1260@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">mj.irin1260@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://github.com/MinjunShin" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">MinjunShin</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <!-- <p class="rss-subscribe text"><strong>Subscribe <a href="/tech_blog/feed.xml">via RSS</a></strong></p> -->
+      <p class="text"></p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+<script src="//unpkg.com/popper.js@1"></script>
+<script src="//unpkg.com/tippy.js@5"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+
+	// Enable tooltips via Tippy.js
+	if (Array.isArray(window.tooltips)) {
+		window.tooltips.forEach(function(tooltip) {
+			var selector = tooltip[0];
+			var config = tooltip[1];
+			tippy(selector, config);
+		})
+	}
+});
+
+</script>
+
+
+
+
+
+
+  </body>
+
+</html>

@@ -3,18 +3,18 @@
   <channel>
     <title>MJ's Tech blog</title>
     <description></description>
-    <link>http://localhost:4000/tech_blog/</link>
-    <atom:link href="http://localhost:4000/tech_blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jun 2022 03:55:57 +0900</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2022 03:55:57 +0900</lastBuildDate>
+    <link>https://minjunshin.github.io/tech_blog/</link>
+    <atom:link href="https://minjunshin.github.io/tech_blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Sep 2022 09:56:12 -0700</pubDate>
+    <lastBuildDate>Tue, 06 Sep 2022 09:56:12 -0700</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
         <title>정보보호 경영체계 - 인적보안 정책</title>
         <description>&lt;h2 id=&quot;고용-계약-및-정책&quot;&gt;고용 계약 및 정책&lt;/h2&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;&lt;strong&gt;고용 계약서(EA)&lt;/strong&gt; : 조직의 규칙과 제한 사항, 정보보호 정책, 이용 및 활동 허락 정책(acceptable use and activities policies), 상세한 직무 기술, 위반과 벌칙,...</description>
-        <pubDate>Fri, 24 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/tech_blog/technical/2022/06/24/infosecurity2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech_blog/technical/2022/06/24/infosecurity2.html</guid>
+        <pubDate>Fri, 24 Jun 2022 00:00:00 -0700</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/technical/2022/06/24/infosecurity2.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/technical/2022/06/24/infosecurity2.html</guid>
         
         
         <category>technical</category>
@@ -24,9 +24,9 @@
       <item>
         <title>Final PJT - TDQuest Review</title>
         <description>&lt;h1 id=&quot;tdquest&quot;&gt;TDQuest&lt;/h1&gt; &lt;hr /&gt; &lt;p&gt;TDQuest는 기본적인 To-do list와 게임 요소를 결합하여, To-do를 좀 더 흥미롭게 진행할 수 있게 만들어주는 목적으로 기획한 Web App입니다.&lt;br /&gt; &lt;br /&gt;&lt;/p&gt; &lt;h4 id=&quot;개발기간--2022042020220608&quot;&gt;&lt;strong&gt;개발기간&lt;/strong&gt; : 2022.04.20~2022.06.08&lt;/h4&gt;...</description>
-        <pubDate>Sun, 12 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/tech_blog/technical/2022/06/12/tdquest.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech_blog/technical/2022/06/12/tdquest.html</guid>
+        <pubDate>Sun, 12 Jun 2022 00:00:00 -0700</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/technical/2022/06/12/tdquest.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/technical/2022/06/12/tdquest.html</guid>
         
         
         <category>technical</category>
@@ -36,9 +36,9 @@
       <item>
         <title>깃허브 블로그 좀 만들어보자… Jekyll Error</title>
         <description>&lt;h1 id=&quot;깃허브-블로그-좀-만들어보자-jekyll-error&quot;&gt;깃허브 블로그 좀 만들어보자… Jekyll Error&lt;/h1&gt; &lt;hr /&gt; &lt;p&gt;나는 처음에 &lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;이라는 신문물을 무시하고 그냥 깃헙 페이지에 푸시하고 커밋하면서 수정하면 되겠지~ 했다가 상당히 매운 맛을 몇시간 동안 보게 되었다.&lt;/p&gt;...</description>
-        <pubDate>Sun, 12 Jun 2022 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/tech_blog/technical/2022/06/12/githubblog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/tech_blog/technical/2022/06/12/githubblog.html</guid>
+        <pubDate>Sun, 12 Jun 2022 00:00:00 -0700</pubDate>
+        <link>https://minjunshin.github.io/tech_blog/technical/2022/06/12/githubblog.html</link>
+        <guid isPermaLink="true">https://minjunshin.github.io/tech_blog/technical/2022/06/12/githubblog.html</guid>
         
         
         <category>technical</category>
